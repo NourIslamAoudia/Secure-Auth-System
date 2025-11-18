@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Système d'authentification sécurisé
-Avec gestion des tentatives, bannissement, animations et couleurs
-"""
-
 import hashlib
 import secrets
 import getpass
@@ -399,8 +392,7 @@ def signin():
 
 def exit_program():
     """Fonction de sortie"""
-    print_animated(f"Merci d'avoir utilise le systeme d'authentification securise !", delay=0.02)
-    print_animated(f"A bientot !", delay=0.02)
+    print_animated(f"Merci d'avoir utilise le systeme d'authentification securise !", delay=0.05)
     time.sleep(1)
     sys.exit(0)
 
